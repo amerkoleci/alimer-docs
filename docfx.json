@@ -49,10 +49,20 @@
       }
     ],
     "dest": "_site",
+    "globalMetadata": {
+      "_appTitle": "Vortice Documentation",
+      "_enableSearch": "true",
+      "_disableContribution": "false",
+      "_gitContribute": {
+        "repo": "https://github.com/amerkoleci/vortice-docs.git",
+        "branch": "main"
+      }
+    },
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default"
+      "default",
+      "templates/darkfx"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
