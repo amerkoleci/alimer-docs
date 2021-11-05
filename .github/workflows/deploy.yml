@@ -23,3 +23,19 @@ jobs:
       uses: crazy-max/ghaction-chocolatey@v1
       with:
         args: install docfx
+
+    - name: Install dependencies
+      run: dotnet restore
+
+    - name: DocFX Build
+      working-directory: .
+      run: docfx docfx.json
+      continue-on-error: false
+
+    - name: Publish
+      if: github.event_name == 'push'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: _site
+        force_orphan: true      
