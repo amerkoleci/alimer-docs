@@ -6,6 +6,9 @@ on:
   push:
     branches: [main]
 
+env:
+  DOTNET_CLI_TELEMETRY_OPTOUT: true
+
 jobs:
   generate-docs:
     runs-on: windows-latest
@@ -13,11 +16,13 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+      with:
+        submodules: recursive
 
-    - name: Install .NET 5.0
+    - name: Setup .NET 6.0
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '5.0.x'
+        dotnet-version: 6.0.100
 
     - name: Setup DocFX
       uses: crazy-max/ghaction-chocolatey@v1
