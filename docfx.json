@@ -50,11 +50,13 @@
     ],
     "dest": "_site",
     "globalMetadata": {
-      "_appTitle": "Vortice Documentation",
+      "_appTitle": "Alimer Documentation",
       "_enableSearch": "true",
+      "_enableGoogleAnalytics": true,
+		  "_enableNewTab": true,
       "_disableContribution": "false",
       "_gitContribute": {
-        "repo": "https://github.com/amerkoleci/vortice-docs.git",
+        "repo": "https://github.com/amerkoleci/alimer-docs.git",
         "branch": "main"
       }
     },
@@ -62,7 +64,7 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
-      "templates/darkfx"
+      "modern"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",

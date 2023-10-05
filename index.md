@@ -1,4 +1,4 @@
-# Vortice Documentation
+# Alimer Documentation
 
 ------
 ## Quick Start Notes:
