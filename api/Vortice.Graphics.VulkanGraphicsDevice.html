@@ -1,0 +1,546 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class VulkanGraphicsDevice
+   | Alimer Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class VulkanGraphicsDevice
+   | Alimer Documentation ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Vortice.Graphics.VulkanGraphicsDevice">
+  
+  
+  <h1 id="Vortice_Graphics_VulkanGraphicsDevice" data-uid="Vortice.Graphics.VulkanGraphicsDevice" class="text-break">Class VulkanGraphicsDevice
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Vortice.Graphics.GraphicsDevice.html">GraphicsDevice</a></div>
+    <div class="level2"><span class="xref">VulkanGraphicsDevice</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Vortice.Graphics.GraphicsDevice.html#Vortice_Graphics_GraphicsDevice_BackendType">GraphicsDevice.BackendType</a>
+    </div>
+    <div>
+      <a class="xref" href="Vortice.Graphics.GraphicsDevice.html#Vortice_Graphics_GraphicsDevice_IsDisposed">GraphicsDevice.IsDisposed</a>
+    </div>
+    <div>
+      <a class="xref" href="Vortice.Graphics.GraphicsDevice.html#Vortice_Graphics_GraphicsDevice_Dispose">GraphicsDevice.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="Vortice.Graphics.GraphicsDevice.html#Vortice_Graphics_GraphicsDevice_ThrowIfDisposed">GraphicsDevice.ThrowIfDisposed()</a>
+    </div>
+    <div>
+      <a class="xref" href="Vortice.Graphics.GraphicsDevice.html#Vortice_Graphics_GraphicsDevice_CreateSwapChain_Vortice_Graphics_SwapChainSource__Vortice_Graphics_SwapChainDescriptor__">GraphicsDevice.CreateSwapChain(SwapChainSource, SwapChainDescriptor)</a>
+    </div>
+    <div>
+      <a class="xref" href="Vortice.Graphics.GraphicsDevice.html#Vortice_Graphics_GraphicsDevice_CreateTexture_Vortice_Graphics_TextureDescriptor__">GraphicsDevice.CreateTexture(TextureDescriptor)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Vortice.Graphics.html">Vortice.Graphics</a></h6>
+  <h6><strong>Assembly</strong>: Vortice.Graphics.Vulkan.dll</h6>
+  <h5 id="Vortice_Graphics_VulkanGraphicsDevice_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class VulkanGraphicsDevice : GraphicsDevice, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="Vortice_Graphics_VulkanGraphicsDevice__ctor_" data-uid="Vortice.Graphics.VulkanGraphicsDevice.#ctor*"></a>
+  <h4 id="Vortice_Graphics_VulkanGraphicsDevice__ctor_Vortice_Graphics_ValidationMode_Vortice_Graphics_GPUPowerPreference_" data-uid="Vortice.Graphics.VulkanGraphicsDevice.#ctor(Vortice.Graphics.ValidationMode,Vortice.Graphics.GPUPowerPreference)">VulkanGraphicsDevice(ValidationMode, GPUPowerPreference)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VulkanGraphicsDevice(ValidationMode validationMode = ValidationMode.Disabled, GPUPowerPreference powerPreference = GPUPowerPreference.HighPerformance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.ValidationMode.html">ValidationMode</a></td>
+        <td><span class="parametername">validationMode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.GPUPowerPreference.html">GPUPowerPreference</a></td>
+        <td><span class="parametername">powerPreference</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="Vortice_Graphics_VulkanGraphicsDevice_AdapterId_" data-uid="Vortice.Graphics.VulkanGraphicsDevice.AdapterId*"></a>
+  <h4 id="Vortice_Graphics_VulkanGraphicsDevice_AdapterId" data-uid="Vortice.Graphics.VulkanGraphicsDevice.AdapterId">AdapterId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override uint AdapterId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Vortice.Graphics.GraphicsDevice.html#Vortice_Graphics_GraphicsDevice_AdapterId">GraphicsDevice.AdapterId</a></div>
+  <a id="Vortice_Graphics_VulkanGraphicsDevice_AdapterName_" data-uid="Vortice.Graphics.VulkanGraphicsDevice.AdapterName*"></a>
+  <h4 id="Vortice_Graphics_VulkanGraphicsDevice_AdapterName" data-uid="Vortice.Graphics.VulkanGraphicsDevice.AdapterName">AdapterName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string AdapterName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Vortice.Graphics.GraphicsDevice.html#Vortice_Graphics_GraphicsDevice_AdapterName">GraphicsDevice.AdapterName</a></div>
+  <a id="Vortice_Graphics_VulkanGraphicsDevice_AdapterType_" data-uid="Vortice.Graphics.VulkanGraphicsDevice.AdapterType*"></a>
+  <h4 id="Vortice_Graphics_VulkanGraphicsDevice_AdapterType" data-uid="Vortice.Graphics.VulkanGraphicsDevice.AdapterType">AdapterType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override GPUAdapterType AdapterType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.GPUAdapterType.html">GPUAdapterType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Vortice.Graphics.GraphicsDevice.html#Vortice_Graphics_GraphicsDevice_AdapterType">GraphicsDevice.AdapterType</a></div>
+  <a id="Vortice_Graphics_VulkanGraphicsDevice_Capabilities_" data-uid="Vortice.Graphics.VulkanGraphicsDevice.Capabilities*"></a>
+  <h4 id="Vortice_Graphics_VulkanGraphicsDevice_Capabilities" data-uid="Vortice.Graphics.VulkanGraphicsDevice.Capabilities">Capabilities</h4>
+  <div class="markdown level1 summary"><p>Get the device capabilities.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override GraphicsDeviceCaps Capabilities { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.GraphicsDeviceCaps.html">GraphicsDeviceCaps</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Vortice.Graphics.GraphicsDevice.html#Vortice_Graphics_GraphicsDevice_Capabilities">GraphicsDevice.Capabilities</a></div>
+  <a id="Vortice_Graphics_VulkanGraphicsDevice_DebugUtils_" data-uid="Vortice.Graphics.VulkanGraphicsDevice.DebugUtils*"></a>
+  <h4 id="Vortice_Graphics_VulkanGraphicsDevice_DebugUtils" data-uid="Vortice.Graphics.VulkanGraphicsDevice.DebugUtils">DebugUtils</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DebugUtils { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_VulkanGraphicsDevice_Instance_" data-uid="Vortice.Graphics.VulkanGraphicsDevice.Instance*"></a>
+  <h4 id="Vortice_Graphics_VulkanGraphicsDevice_Instance" data-uid="Vortice.Graphics.VulkanGraphicsDevice.Instance">Instance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VkInstance Instance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VkInstance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_VulkanGraphicsDevice_NativeDevice_" data-uid="Vortice.Graphics.VulkanGraphicsDevice.NativeDevice*"></a>
+  <h4 id="Vortice_Graphics_VulkanGraphicsDevice_NativeDevice" data-uid="Vortice.Graphics.VulkanGraphicsDevice.NativeDevice">NativeDevice</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VkDevice NativeDevice { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VkDevice</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_VulkanGraphicsDevice_PhysicalDevice_" data-uid="Vortice.Graphics.VulkanGraphicsDevice.PhysicalDevice*"></a>
+  <h4 id="Vortice_Graphics_VulkanGraphicsDevice_PhysicalDevice" data-uid="Vortice.Graphics.VulkanGraphicsDevice.PhysicalDevice">PhysicalDevice</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VkPhysicalDevice PhysicalDevice { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VkPhysicalDevice</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_VulkanGraphicsDevice_VendorId_" data-uid="Vortice.Graphics.VulkanGraphicsDevice.VendorId*"></a>
+  <h4 id="Vortice_Graphics_VulkanGraphicsDevice_VendorId" data-uid="Vortice.Graphics.VulkanGraphicsDevice.VendorId">VendorId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override VendorId VendorId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.VendorId.html">VendorId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Vortice.Graphics.GraphicsDevice.html#Vortice_Graphics_GraphicsDevice_VendorId">GraphicsDevice.VendorId</a></div>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Vortice_Graphics_VulkanGraphicsDevice_CreateSwapChainCore_" data-uid="Vortice.Graphics.VulkanGraphicsDevice.CreateSwapChainCore*"></a>
+  <h4 id="Vortice_Graphics_VulkanGraphicsDevice_CreateSwapChainCore_Vortice_Graphics_SwapChainSource__Vortice_Graphics_SwapChainDescriptor__" data-uid="Vortice.Graphics.VulkanGraphicsDevice.CreateSwapChainCore(Vortice.Graphics.SwapChainSource@,Vortice.Graphics.SwapChainDescriptor@)">CreateSwapChainCore(in SwapChainSource, in SwapChainDescriptor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override SwapChain CreateSwapChainCore(in SwapChainSource source, in SwapChainDescriptor descriptor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.SwapChainSource.html">SwapChainSource</a></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.SwapChainDescriptor.html">SwapChainDescriptor</a></td>
+        <td><span class="parametername">descriptor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.SwapChain.html">SwapChain</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Vortice.Graphics.GraphicsDevice.html#Vortice_Graphics_GraphicsDevice_CreateSwapChainCore_Vortice_Graphics_SwapChainSource__Vortice_Graphics_SwapChainDescriptor__">GraphicsDevice.CreateSwapChainCore(in SwapChainSource, in SwapChainDescriptor)</a></div>
+  <a id="Vortice_Graphics_VulkanGraphicsDevice_CreateTextureCore_" data-uid="Vortice.Graphics.VulkanGraphicsDevice.CreateTextureCore*"></a>
+  <h4 id="Vortice_Graphics_VulkanGraphicsDevice_CreateTextureCore_Vortice_Graphics_TextureDescriptor__" data-uid="Vortice.Graphics.VulkanGraphicsDevice.CreateTextureCore(Vortice.Graphics.TextureDescriptor@)">CreateTextureCore(in TextureDescriptor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override Texture CreateTextureCore(in TextureDescriptor descriptor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureDescriptor.html">TextureDescriptor</a></td>
+        <td><span class="parametername">descriptor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.Texture.html">Texture</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Vortice.Graphics.GraphicsDevice.html#Vortice_Graphics_GraphicsDevice_CreateTextureCore_Vortice_Graphics_TextureDescriptor__">GraphicsDevice.CreateTextureCore(in TextureDescriptor)</a></div>
+  <a id="Vortice_Graphics_VulkanGraphicsDevice_OnDispose_" data-uid="Vortice.Graphics.VulkanGraphicsDevice.OnDispose*"></a>
+  <h4 id="Vortice_Graphics_VulkanGraphicsDevice_OnDispose" data-uid="Vortice.Graphics.VulkanGraphicsDevice.OnDispose">OnDispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnDispose()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Vortice.Graphics.GraphicsDevice.html#Vortice_Graphics_GraphicsDevice_OnDispose">GraphicsDevice.OnDispose()</a></div>
+  <a id="Vortice_Graphics_VulkanGraphicsDevice_WaitIdle_" data-uid="Vortice.Graphics.VulkanGraphicsDevice.WaitIdle*"></a>
+  <h4 id="Vortice_Graphics_VulkanGraphicsDevice_WaitIdle" data-uid="Vortice.Graphics.VulkanGraphicsDevice.WaitIdle">WaitIdle()</h4>
+  <div class="markdown level1 summary"><p>Wait for device to finish pending GPU operations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void WaitIdle()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Vortice.Graphics.GraphicsDevice.html#Vortice_Graphics_GraphicsDevice_WaitIdle">GraphicsDevice.WaitIdle()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

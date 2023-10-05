@@ -1,0 +1,860 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/alimer-docs/alimer-docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "eUgNlrCeolX7L2aZIsid+v/ZF5tS6rp6pCj9QQrQRKE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Assets.Asset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Assets.Asset.html",
+          "hash": "5sQdPtmVK4iap1SLBlE9vK5gM/20ShLroN5jMZ3je6w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Assets.AssetWithSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Assets.AssetWithSource.html",
+          "hash": "MCWqC4tkHgmM5HdJ3f7n4YqGMzAdQLXToVLDrTt6f20="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Assets.IAssetImporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Assets.IAssetImporter.html",
+          "hash": "Y63OKRJBMlwBCbWlUy/yFL4qI4CoineTsWlUms9EawU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Assets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Assets.html",
+          "hash": "NeVtkRaQhH9mt27uR5mT1OzEtlM4E+IjD7bRhAmrjZk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Audio.AudioSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Audio.AudioSystem.html",
+          "hash": "I+sEKDZAXFGyBqqaG/7G5yPCkKoXYIn2yNUvyeczLME="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Audio.XAudio2System.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Audio.XAudio2System.html",
+          "hash": "6HcS9CALj+SoU0TC02DEVohKgTMsk9o3i6g1JT5rv/U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Audio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Audio.html",
+          "hash": "Eqy8j7t6bBbZTTL+OdPqItrIxNtorQxD2H6T8H9zArI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Engine.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Engine.Entity.html",
+          "hash": "BrwfkmeQbYh0hjIjZEKWaAQllJbHpEa1WYoPHCk3OP8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Engine.EntityComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Engine.EntityComponent.html",
+          "hash": "bMkvKQNIaCdVIbqsGu/Q6iFy7Mstu2gCfkOWNibvl3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Engine.Game.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Engine.Game.html",
+          "hash": "KtM4PgyDi6dIx3rNCjrqiTYHgRVRwwZj0/hwmT+LvSo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Engine.TransformComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Engine.TransformComponent.html",
+          "hash": "16tqmtbXIsEbhAIaW8LK6fuG/iJSpQlVTa/P+RSRao4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Engine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Engine.html",
+          "hash": "1+g0tQ4mVJdzGTbhmMwC+b4T+IBfc6DbHNekNDYaTAc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.GameBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.GameBase.html",
+          "hash": "RrzYM6zVaA3Xpfs7m5+OwssJlJEqiIgepXYZ8tI0OLI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.GameContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.GameContext.html",
+          "hash": "moQSYJcXs3E8GMM0Ikind0096jtF5yCWwKDokmFguko="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.GameContextWithGraphics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.GameContextWithGraphics.html",
+          "hash": "atgce9t54IzpTN/ooGEuBK458Z2bqrOHHdNIzi04fwY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.GameSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.GameSystem.html",
+          "hash": "IF7tRalgO3jZiWXzQqwcsxCsfnEDVMKhO33h68ePE2g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.GameTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.GameTime.html",
+          "hash": "33cQPRZv7syYKfvGnJIMeEmpCJ1B/cHGDYAKD8wzyto="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.GameView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.GameView.html",
+          "hash": "uvCjrAlWsUVhLzSqACpy2olonqsMnwR9ixoSDTKMLFo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.CommandQueueType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.CommandQueueType.html",
+          "hash": "tlXaIwCLobRXlikaynsaWu58tbr3i3sA4yc37WXCjug="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.D3D12GraphicsDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.D3D12GraphicsDevice.html",
+          "hash": "jQWP6Pq0AqohvyN1jjkZlyvHKiRrhU/o36HS+IxODlo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.GPUAdapterType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.GPUAdapterType.html",
+          "hash": "jY5Fjn+o0/tNwk1UHUQWNwRM+Mp4yFx0IBoENGX1xIE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.GPUPowerPreference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.GPUPowerPreference.html",
+          "hash": "ZzC43XHL7C+9mlFzkOIrn1PibemVcKnY48qZe74m0u8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.GraphicsBackend.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.GraphicsBackend.html",
+          "hash": "GcIL7fM0MYXdBDMI9BimWRX5VcU43dUmOYdhQOJcjac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.GraphicsDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.GraphicsDevice.html",
+          "hash": "4vhK+9evDPTHB+FZAQH5twzoJ1g1wDonwt7HKjatcR4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.GraphicsDeviceCaps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.GraphicsDeviceCaps.html",
+          "hash": "mlUBUpJXXzfksC1gPXTiqLrIXsabeEpJ1jrrLQE2xZs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.GraphicsDeviceFeatures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.GraphicsDeviceFeatures.html",
+          "hash": "Q6kQlbIv+/H5nplP/CYUPgFlpNy9DLlnIeWgzqx6eFs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.GraphicsDeviceLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.GraphicsDeviceLimits.html",
+          "hash": "LHSNSEFaNgL9Gs2arjEIDUFqOXucpywJBb6rFbVplMk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.GraphicsException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.GraphicsException.html",
+          "hash": "PamkchONZc4Avyx9MQen4Yarjw3dEdgmJr3DDPgGLkA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.GraphicsResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.GraphicsResource.html",
+          "hash": "mIMFe32mkzz2pbkGrYcuLqu+CZL8cUiogbjsk+ZCKdk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.PresentMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.PresentMode.html",
+          "hash": "he5MmdcgTCz6pXlk/0TNVFc1A7AzPoocpLnqsPuURD8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.SwapChain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.SwapChain.html",
+          "hash": "90wveewlUsTfCIlHknJn+ecAWwft4DXu9wTpq6RaN6Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.SwapChainDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.SwapChainDescriptor.html",
+          "hash": "Iezz9x/U4U52D4LSoXjhyysbVsaN9w05xGO1ObWtdNw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.SwapChainSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.SwapChainSource.html",
+          "hash": "ey5EEwRogPQaljeu2JBsZVTk/R73m+hmFzcUIsiWAUI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.SwapChainSourceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.SwapChainSourceType.html",
+          "hash": "RMvkSwfQXPxmYT99MrNOLvRG6Gv6W8xuCiuN9jARYpk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.Texture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.Texture.html",
+          "hash": "/AHngvr9nViIuqLmABw7vYU0Nwsz2sSvWEj/4DuPfL4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.TextureDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.TextureDescriptor.html",
+          "hash": "8Yg6GAL9pcsR2X5B5jO0iRGgrjCcuZjqrXTI7Zql0hU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.TextureDimension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.TextureDimension.html",
+          "hash": "ufedgirPIcR8UH/850FTD/2UjJuWphxbc+9sGHrJYs4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.TextureFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.TextureFormat.html",
+          "hash": "kREOZJmqT9/M2IccspMdIDmR9kt1UWQJPuXqxzXoqXk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.TextureFormatUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.TextureFormatUtils.html",
+          "hash": "e5L/jyQFhScZCa6lP+R73XPfXru7T8t8PI962gCtVYU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.TextureSampleCount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.TextureSampleCount.html",
+          "hash": "FH+if33q0ZheB9a91jxWHWfjrddrsb391/mfJ1ke0yQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.TextureUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.TextureUsage.html",
+          "hash": "dmzqfQaRV9O0KeLvnxQldU21avZSutnSB61IbHtFn5k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.ValidationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.ValidationMode.html",
+          "hash": "xXvi4ERlDIsuBX9LH6yi8TfnsTlaMbrKChheHgxZhIw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.VendorId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.VendorId.html",
+          "hash": "aN3JlhHEjqVphISAgwLIWDamwMHGSe+PvCo4PCB5MzE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.VulkanGraphicsDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.VulkanGraphicsDevice.html",
+          "hash": "iUkcF5iU/A0KUhC0+XGJ58WFymNm+wqCS4zhYy6HL1g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.Win32SwapChainSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.Win32SwapChainSource.html",
+          "hash": "grCwB5HZA0wrr+etJoX4JhP2nZ50u6ML3MexJTO57Ag="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Graphics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Graphics.html",
+          "hash": "hkapjAj1RDMQUPCoZvi/3JBM5cDVxZDZeHMfycEy3Mw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.IGame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.IGame.html",
+          "hash": "PFvWNne8k40LU3uj4GCoEFSWHN9nH9CqO6CyAa8MSmg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.IGameSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.IGameSystem.html",
+          "hash": "sQ0e7xx6MDIMzm5x3vCiql+Ia9Mp/MwBNM/Kv+Mq8b0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Input.InputManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Input.InputManager.html",
+          "hash": "gPgPJIJi/Cg+mWfqRw6yMSRI9HBwzb3q+Y9Ui/uAyUQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Input.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Input.html",
+          "hash": "O6G/w/KCtWbAj8R//tE2JccA84DL49EtFPUHY2JKWMM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.MarshalUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.MarshalUtilities.html",
+          "hash": "tRj47EwHmApWYD4b/rfFU+4KsL6uAmrJVLPkW2aTXSU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.MathUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.MathUtilities.html",
+          "hash": "eYVrKo93Syzdeje8mW0qJ/QR/HuieJwPMcrFtrf6HQE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.SDL2GameContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.SDL2GameContext.html",
+          "hash": "VLdm3r21+iVthuSuW+loKWFD5abl4OAS/Sx6aeYPo9c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Samples.DrawTriangleGame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Samples.DrawTriangleGame.html",
+          "hash": "OdKQM0bz2/arpYJURKRmnZAizgnmBPjvP8uWWlAjC00="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Samples.MainForm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Samples.MainForm.html",
+          "hash": "uoM++vPvBoVKwLlgxK6EjK6T2JW+esAI79ivTCu0fj4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Samples.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Samples.Program.html",
+          "hash": "oevHTSQ8DzfnfX9DAIFK4ihQMLp2ii6MTwCj8GFjFNE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.Samples.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.Samples.html",
+          "hash": "2xKgSMhlI3Da2HhjIVsemThbLQp9bx6QpoErCRvLjus="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.UnsafeUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.UnsafeUtilities.html",
+          "hash": "S6ZDJ8spf9r5BPAda3C8rTSld3S1LkHWGGj+cp8h5Z0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.WinFormsGameContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.WinFormsGameContext.html",
+          "hash": "wAocy+DtvYdDi9sT0xLv371xbjVK71vGjPlK8qKsgrg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Vortice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Vortice.html",
+          "hash": "r767LGe/A/ahFJFFL1Jmx1tfCo28x1QnTMbAcINhC3Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "OaXil/GEzfFX5br6L3pDVqPu3y7VK5k+O5N5gGzc7mA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "XmRB9+uxP8E7sdHBgS5nt3b3KrxenLSwMA2qOV2+5xo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "0Aum9xOMuSBgpBgRiByZanGAmdNkeDEhpgTzx+BQ5VI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "e1a3hBdDY9VByet1rRDILM2bykoFaAa9t0dIl7OGXuQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 60,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

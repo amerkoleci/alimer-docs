@@ -1,0 +1,805 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct TextureDescriptor
+   | Alimer Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct TextureDescriptor
+   | Alimer Documentation ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Vortice.Graphics.TextureDescriptor">
+  
+  
+  <h1 id="Vortice_Graphics_TextureDescriptor" data-uid="Vortice.Graphics.TextureDescriptor" class="text-break">Struct TextureDescriptor
+  </h1>
+  <div class="markdown level0 summary"><p>Structure that describes the <a class="xref" href="Vortice.Graphics.Texture.html">Texture</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Vortice.Graphics.TextureDescriptor.html">TextureDescriptor</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.ValueType.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Vortice.Graphics.html">Vortice.Graphics</a></h6>
+  <h6><strong>Assembly</strong>: Vortice.Graphics.dll</h6>
+  <h5 id="Vortice_Graphics_TextureDescriptor_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly struct TextureDescriptor : IEquatable&lt;TextureDescriptor&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="Vortice_Graphics_TextureDescriptor__ctor_" data-uid="Vortice.Graphics.TextureDescriptor.#ctor*"></a>
+  <h4 id="Vortice_Graphics_TextureDescriptor__ctor_Vortice_Graphics_TextureDimension_Vortice_Graphics_TextureFormat_System_Int32_System_Int32_System_Int32_System_Int32_Vortice_Graphics_TextureUsage_Vortice_Graphics_TextureSampleCount_" data-uid="Vortice.Graphics.TextureDescriptor.#ctor(Vortice.Graphics.TextureDimension,Vortice.Graphics.TextureFormat,System.Int32,System.Int32,System.Int32,System.Int32,Vortice.Graphics.TextureUsage,Vortice.Graphics.TextureSampleCount)">TextureDescriptor(TextureDimension, TextureFormat, Int32, Int32, Int32, Int32, TextureUsage, TextureSampleCount)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextureDescriptor(TextureDimension dimension, TextureFormat format, int width, int height, int depthOrArraySize, int mipLevels = 1, TextureUsage usage = TextureUsage.ShaderRead, TextureSampleCount sampleCount = TextureSampleCount.Count1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureDimension.html">TextureDimension</a></td>
+        <td><span class="parametername">dimension</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureFormat.html">TextureFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">depthOrArraySize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">mipLevels</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureUsage.html">TextureUsage</a></td>
+        <td><span class="parametername">usage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureSampleCount.html">TextureSampleCount</a></td>
+        <td><span class="parametername">sampleCount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="Vortice_Graphics_TextureDescriptor_DepthOrArraySize_" data-uid="Vortice.Graphics.TextureDescriptor.DepthOrArraySize*"></a>
+  <h4 id="Vortice_Graphics_TextureDescriptor_DepthOrArraySize" data-uid="Vortice.Graphics.TextureDescriptor.DepthOrArraySize">DepthOrArraySize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly int DepthOrArraySize { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_TextureDescriptor_Dimension_" data-uid="Vortice.Graphics.TextureDescriptor.Dimension*"></a>
+  <h4 id="Vortice_Graphics_TextureDescriptor_Dimension" data-uid="Vortice.Graphics.TextureDescriptor.Dimension">Dimension</h4>
+  <div class="markdown level1 summary"><p>Dimension of texture.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly TextureDimension Dimension { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureDimension.html">TextureDimension</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_TextureDescriptor_Format_" data-uid="Vortice.Graphics.TextureDescriptor.Format*"></a>
+  <h4 id="Vortice_Graphics_TextureDescriptor_Format" data-uid="Vortice.Graphics.TextureDescriptor.Format">Format</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly TextureFormat Format { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureFormat.html">TextureFormat</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_TextureDescriptor_Height_" data-uid="Vortice.Graphics.TextureDescriptor.Height*"></a>
+  <h4 id="Vortice_Graphics_TextureDescriptor_Height" data-uid="Vortice.Graphics.TextureDescriptor.Height">Height</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly int Height { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_TextureDescriptor_MipLevels_" data-uid="Vortice.Graphics.TextureDescriptor.MipLevels*"></a>
+  <h4 id="Vortice_Graphics_TextureDescriptor_MipLevels" data-uid="Vortice.Graphics.TextureDescriptor.MipLevels">MipLevels</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly int MipLevels { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_TextureDescriptor_SampleCount_" data-uid="Vortice.Graphics.TextureDescriptor.SampleCount*"></a>
+  <h4 id="Vortice_Graphics_TextureDescriptor_SampleCount" data-uid="Vortice.Graphics.TextureDescriptor.SampleCount">SampleCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly TextureSampleCount SampleCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureSampleCount.html">TextureSampleCount</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_TextureDescriptor_Usage_" data-uid="Vortice.Graphics.TextureDescriptor.Usage*"></a>
+  <h4 id="Vortice_Graphics_TextureDescriptor_Usage" data-uid="Vortice.Graphics.TextureDescriptor.Usage">Usage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly TextureUsage Usage { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureUsage.html">TextureUsage</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_TextureDescriptor_Width_" data-uid="Vortice.Graphics.TextureDescriptor.Width*"></a>
+  <h4 id="Vortice_Graphics_TextureDescriptor_Width" data-uid="Vortice.Graphics.TextureDescriptor.Width">Width</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly int Width { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Vortice_Graphics_TextureDescriptor_Equals_" data-uid="Vortice.Graphics.TextureDescriptor.Equals*"></a>
+  <h4 id="Vortice_Graphics_TextureDescriptor_Equals_System_Object_" data-uid="Vortice.Graphics.TextureDescriptor.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override readonly bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
+  <a id="Vortice_Graphics_TextureDescriptor_Equals_" data-uid="Vortice.Graphics.TextureDescriptor.Equals*"></a>
+  <h4 id="Vortice_Graphics_TextureDescriptor_Equals_Vortice_Graphics_TextureDescriptor_" data-uid="Vortice.Graphics.TextureDescriptor.Equals(Vortice.Graphics.TextureDescriptor)">Equals(TextureDescriptor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly bool Equals(TextureDescriptor other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureDescriptor.html">TextureDescriptor</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_TextureDescriptor_GetHashCode_" data-uid="Vortice.Graphics.TextureDescriptor.GetHashCode*"></a>
+  <h4 id="Vortice_Graphics_TextureDescriptor_GetHashCode" data-uid="Vortice.Graphics.TextureDescriptor.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Returns the hash code for this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override readonly int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>A 32-bit signed integer that is the hash code for this instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.GetHashCode()</span></div>
+  <a id="Vortice_Graphics_TextureDescriptor_Texture1D_" data-uid="Vortice.Graphics.TextureDescriptor.Texture1D*"></a>
+  <h4 id="Vortice_Graphics_TextureDescriptor_Texture1D_Vortice_Graphics_TextureFormat_System_Int32_System_Int32_System_Int32_Vortice_Graphics_TextureUsage_" data-uid="Vortice.Graphics.TextureDescriptor.Texture1D(Vortice.Graphics.TextureFormat,System.Int32,System.Int32,System.Int32,Vortice.Graphics.TextureUsage)">Texture1D(TextureFormat, Int32, Int32, Int32, TextureUsage)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextureDescriptor Texture1D(TextureFormat format, int width, int mipLevels = 1, int arrayLayers = 1, TextureUsage usage = TextureUsage.ShaderRead)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureFormat.html">TextureFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">mipLevels</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">arrayLayers</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureUsage.html">TextureUsage</a></td>
+        <td><span class="parametername">usage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureDescriptor.html">TextureDescriptor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_TextureDescriptor_Texture2D_" data-uid="Vortice.Graphics.TextureDescriptor.Texture2D*"></a>
+  <h4 id="Vortice_Graphics_TextureDescriptor_Texture2D_Vortice_Graphics_TextureFormat_System_Int32_System_Int32_System_Int32_System_Int32_Vortice_Graphics_TextureUsage_Vortice_Graphics_TextureSampleCount_" data-uid="Vortice.Graphics.TextureDescriptor.Texture2D(Vortice.Graphics.TextureFormat,System.Int32,System.Int32,System.Int32,System.Int32,Vortice.Graphics.TextureUsage,Vortice.Graphics.TextureSampleCount)">Texture2D(TextureFormat, Int32, Int32, Int32, Int32, TextureUsage, TextureSampleCount)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextureDescriptor Texture2D(TextureFormat format, int width, int height, int mipLevels = 1, int arrayLayers = 1, TextureUsage usage = TextureUsage.ShaderRead, TextureSampleCount sampleCount = TextureSampleCount.Count1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureFormat.html">TextureFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">mipLevels</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">arrayLayers</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureUsage.html">TextureUsage</a></td>
+        <td><span class="parametername">usage</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureSampleCount.html">TextureSampleCount</a></td>
+        <td><span class="parametername">sampleCount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureDescriptor.html">TextureDescriptor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_TextureDescriptor_Texture3D_" data-uid="Vortice.Graphics.TextureDescriptor.Texture3D*"></a>
+  <h4 id="Vortice_Graphics_TextureDescriptor_Texture3D_Vortice_Graphics_TextureFormat_System_Int32_System_Int32_System_Int32_System_Int32_Vortice_Graphics_TextureUsage_" data-uid="Vortice.Graphics.TextureDescriptor.Texture3D(Vortice.Graphics.TextureFormat,System.Int32,System.Int32,System.Int32,System.Int32,Vortice.Graphics.TextureUsage)">Texture3D(TextureFormat, Int32, Int32, Int32, Int32, TextureUsage)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TextureDescriptor Texture3D(TextureFormat format, int width, int height, int depth = 1, int mipLevels = 1, TextureUsage usage = TextureUsage.ShaderRead)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureFormat.html">TextureFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">depth</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">mipLevels</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureUsage.html">TextureUsage</a></td>
+        <td><span class="parametername">usage</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureDescriptor.html">TextureDescriptor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  <a id="Vortice_Graphics_TextureDescriptor_op_Equality_" data-uid="Vortice.Graphics.TextureDescriptor.op_Equality*"></a>
+  <h4 id="Vortice_Graphics_TextureDescriptor_op_Equality_Vortice_Graphics_TextureDescriptor_Vortice_Graphics_TextureDescriptor_" data-uid="Vortice.Graphics.TextureDescriptor.op_Equality(Vortice.Graphics.TextureDescriptor,Vortice.Graphics.TextureDescriptor)">Equality(TextureDescriptor, TextureDescriptor)</h4>
+  <div class="markdown level1 summary"><p>Compares two <a class="xref" href="Vortice.Graphics.TextureDescriptor.html">TextureDescriptor</a> objects for equality.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(TextureDescriptor left, TextureDescriptor right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureDescriptor.html">TextureDescriptor</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The <a class="xref" href="Vortice.Graphics.TextureDescriptor.html">TextureDescriptor</a> on the left hand of the operand.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureDescriptor.html">TextureDescriptor</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The <a class="xref" href="Vortice.Graphics.TextureDescriptor.html">TextureDescriptor</a> on the right hand of the operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the current left is equal to the <code data-dev-comment-type="paramref" class="paramref">right</code> parameter; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_TextureDescriptor_op_Inequality_" data-uid="Vortice.Graphics.TextureDescriptor.op_Inequality*"></a>
+  <h4 id="Vortice_Graphics_TextureDescriptor_op_Inequality_Vortice_Graphics_TextureDescriptor_Vortice_Graphics_TextureDescriptor_" data-uid="Vortice.Graphics.TextureDescriptor.op_Inequality(Vortice.Graphics.TextureDescriptor,Vortice.Graphics.TextureDescriptor)">Inequality(TextureDescriptor, TextureDescriptor)</h4>
+  <div class="markdown level1 summary"><p>Compares two <a class="xref" href="Vortice.Graphics.TextureDescriptor.html">TextureDescriptor</a> objects for inequality.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(TextureDescriptor left, TextureDescriptor right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureDescriptor.html">TextureDescriptor</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The <a class="xref" href="Vortice.Graphics.TextureDescriptor.html">TextureDescriptor</a> on the left hand of the operand.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureDescriptor.html">TextureDescriptor</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The <a class="xref" href="Vortice.Graphics.TextureDescriptor.html">TextureDescriptor</a> on the right hand of the operand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if the current left is unequal to the <code data-dev-comment-type="paramref" class="paramref">right</code> parameter; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

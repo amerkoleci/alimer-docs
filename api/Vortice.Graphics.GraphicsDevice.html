@@ -1,0 +1,573 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class GraphicsDevice
+   | Alimer Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class GraphicsDevice
+   | Alimer Documentation ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Vortice.Graphics.GraphicsDevice">
+  
+  
+  <h1 id="Vortice_Graphics_GraphicsDevice" data-uid="Vortice.Graphics.GraphicsDevice" class="text-break">Class GraphicsDevice
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">GraphicsDevice</span></div>
+      <div class="level2"><a class="xref" href="Vortice.Graphics.D3D12GraphicsDevice.html">D3D12GraphicsDevice</a></div>
+      <div class="level2"><a class="xref" href="Vortice.Graphics.VulkanGraphicsDevice.html">VulkanGraphicsDevice</a></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Vortice.Graphics.html">Vortice.Graphics</a></h6>
+  <h6><strong>Assembly</strong>: Vortice.Graphics.dll</h6>
+  <h5 id="Vortice_Graphics_GraphicsDevice_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class GraphicsDevice : IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <a id="Vortice_Graphics_GraphicsDevice__ctor_" data-uid="Vortice.Graphics.GraphicsDevice.#ctor*"></a>
+  <h4 id="Vortice_Graphics_GraphicsDevice__ctor_Vortice_Graphics_GraphicsBackend_" data-uid="Vortice.Graphics.GraphicsDevice.#ctor(Vortice.Graphics.GraphicsBackend)">GraphicsDevice(GraphicsBackend)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected GraphicsDevice(GraphicsBackend backendType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.GraphicsBackend.html">GraphicsBackend</a></td>
+        <td><span class="parametername">backendType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <a id="Vortice_Graphics_GraphicsDevice_AdapterId_" data-uid="Vortice.Graphics.GraphicsDevice.AdapterId*"></a>
+  <h4 id="Vortice_Graphics_GraphicsDevice_AdapterId" data-uid="Vortice.Graphics.GraphicsDevice.AdapterId">AdapterId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract uint AdapterId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_GraphicsDevice_AdapterName_" data-uid="Vortice.Graphics.GraphicsDevice.AdapterName*"></a>
+  <h4 id="Vortice_Graphics_GraphicsDevice_AdapterName" data-uid="Vortice.Graphics.GraphicsDevice.AdapterName">AdapterName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract string AdapterName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_GraphicsDevice_AdapterType_" data-uid="Vortice.Graphics.GraphicsDevice.AdapterType*"></a>
+  <h4 id="Vortice_Graphics_GraphicsDevice_AdapterType" data-uid="Vortice.Graphics.GraphicsDevice.AdapterType">AdapterType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract GPUAdapterType AdapterType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.GPUAdapterType.html">GPUAdapterType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_GraphicsDevice_BackendType_" data-uid="Vortice.Graphics.GraphicsDevice.BackendType*"></a>
+  <h4 id="Vortice_Graphics_GraphicsDevice_BackendType" data-uid="Vortice.Graphics.GraphicsDevice.BackendType">BackendType</h4>
+  <div class="markdown level1 summary"><p>Get the device backend type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GraphicsBackend BackendType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.GraphicsBackend.html">GraphicsBackend</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_GraphicsDevice_Capabilities_" data-uid="Vortice.Graphics.GraphicsDevice.Capabilities*"></a>
+  <h4 id="Vortice_Graphics_GraphicsDevice_Capabilities" data-uid="Vortice.Graphics.GraphicsDevice.Capabilities">Capabilities</h4>
+  <div class="markdown level1 summary"><p>Get the device capabilities.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract GraphicsDeviceCaps Capabilities { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.GraphicsDeviceCaps.html">GraphicsDeviceCaps</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_GraphicsDevice_IsDisposed_" data-uid="Vortice.Graphics.GraphicsDevice.IsDisposed*"></a>
+  <h4 id="Vortice_Graphics_GraphicsDevice_IsDisposed" data-uid="Vortice.Graphics.GraphicsDevice.IsDisposed">IsDisposed</h4>
+  <div class="markdown level1 summary"><p>Gets whether or not the current instance has already been disposed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDisposed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_GraphicsDevice_VendorId_" data-uid="Vortice.Graphics.GraphicsDevice.VendorId*"></a>
+  <h4 id="Vortice_Graphics_GraphicsDevice_VendorId" data-uid="Vortice.Graphics.GraphicsDevice.VendorId">VendorId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract VendorId VendorId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.VendorId.html">VendorId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Vortice_Graphics_GraphicsDevice_CreateSwapChain_" data-uid="Vortice.Graphics.GraphicsDevice.CreateSwapChain*"></a>
+  <h4 id="Vortice_Graphics_GraphicsDevice_CreateSwapChain_Vortice_Graphics_SwapChainSource__Vortice_Graphics_SwapChainDescriptor__" data-uid="Vortice.Graphics.GraphicsDevice.CreateSwapChain(Vortice.Graphics.SwapChainSource@,Vortice.Graphics.SwapChainDescriptor@)">CreateSwapChain(in SwapChainSource, in SwapChainDescriptor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SwapChain CreateSwapChain(in SwapChainSource source, in SwapChainDescriptor descriptor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.SwapChainSource.html">SwapChainSource</a></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.SwapChainDescriptor.html">SwapChainDescriptor</a></td>
+        <td><span class="parametername">descriptor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.SwapChain.html">SwapChain</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_GraphicsDevice_CreateSwapChainCore_" data-uid="Vortice.Graphics.GraphicsDevice.CreateSwapChainCore*"></a>
+  <h4 id="Vortice_Graphics_GraphicsDevice_CreateSwapChainCore_Vortice_Graphics_SwapChainSource__Vortice_Graphics_SwapChainDescriptor__" data-uid="Vortice.Graphics.GraphicsDevice.CreateSwapChainCore(Vortice.Graphics.SwapChainSource@,Vortice.Graphics.SwapChainDescriptor@)">CreateSwapChainCore(in SwapChainSource, in SwapChainDescriptor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract SwapChain CreateSwapChainCore(in SwapChainSource source, in SwapChainDescriptor descriptor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.SwapChainSource.html">SwapChainSource</a></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.SwapChainDescriptor.html">SwapChainDescriptor</a></td>
+        <td><span class="parametername">descriptor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.SwapChain.html">SwapChain</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_GraphicsDevice_CreateTexture_" data-uid="Vortice.Graphics.GraphicsDevice.CreateTexture*"></a>
+  <h4 id="Vortice_Graphics_GraphicsDevice_CreateTexture_Vortice_Graphics_TextureDescriptor__" data-uid="Vortice.Graphics.GraphicsDevice.CreateTexture(Vortice.Graphics.TextureDescriptor@)">CreateTexture(in TextureDescriptor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Texture CreateTexture(in TextureDescriptor descriptor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureDescriptor.html">TextureDescriptor</a></td>
+        <td><span class="parametername">descriptor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.Texture.html">Texture</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_GraphicsDevice_CreateTextureCore_" data-uid="Vortice.Graphics.GraphicsDevice.CreateTextureCore*"></a>
+  <h4 id="Vortice_Graphics_GraphicsDevice_CreateTextureCore_Vortice_Graphics_TextureDescriptor__" data-uid="Vortice.Graphics.GraphicsDevice.CreateTextureCore(Vortice.Graphics.TextureDescriptor@)">CreateTextureCore(in TextureDescriptor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract Texture CreateTextureCore(in TextureDescriptor descriptor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.TextureDescriptor.html">TextureDescriptor</a></td>
+        <td><span class="parametername">descriptor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vortice.Graphics.Texture.html">Texture</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <a id="Vortice_Graphics_GraphicsDevice_Dispose_" data-uid="Vortice.Graphics.GraphicsDevice.Dispose*"></a>
+  <h4 id="Vortice_Graphics_GraphicsDevice_Dispose" data-uid="Vortice.Graphics.GraphicsDevice.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <a id="Vortice_Graphics_GraphicsDevice_Finalize_" data-uid="Vortice.Graphics.GraphicsDevice.Finalize*"></a>
+  <h4 id="Vortice_Graphics_GraphicsDevice_Finalize" data-uid="Vortice.Graphics.GraphicsDevice.Finalize">Finalize()</h4>
+  <div class="markdown level1 summary"><p>Releases unmanaged resources and performs other cleanup operations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+  </div>
+  <a id="Vortice_Graphics_GraphicsDevice_OnDispose_" data-uid="Vortice.Graphics.GraphicsDevice.OnDispose*"></a>
+  <h4 id="Vortice_Graphics_GraphicsDevice_OnDispose" data-uid="Vortice.Graphics.GraphicsDevice.OnDispose">OnDispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnDispose()</code></pre>
+  </div>
+  <a id="Vortice_Graphics_GraphicsDevice_ThrowIfDisposed_" data-uid="Vortice.Graphics.GraphicsDevice.ThrowIfDisposed*"></a>
+  <h4 id="Vortice_Graphics_GraphicsDevice_ThrowIfDisposed" data-uid="Vortice.Graphics.GraphicsDevice.ThrowIfDisposed">ThrowIfDisposed()</h4>
+  <div class="markdown level1 summary"><p>Throws an <span class="xref">System.ObjectDisposedException</span> if the current instance has been disposed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void ThrowIfDisposed()</code></pre>
+  </div>
+  <a id="Vortice_Graphics_GraphicsDevice_WaitIdle_" data-uid="Vortice.Graphics.GraphicsDevice.WaitIdle*"></a>
+  <h4 id="Vortice_Graphics_GraphicsDevice_WaitIdle" data-uid="Vortice.Graphics.GraphicsDevice.WaitIdle">WaitIdle()</h4>
+  <div class="markdown level1 summary"><p>Wait for device to finish pending GPU operations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract void WaitIdle()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
